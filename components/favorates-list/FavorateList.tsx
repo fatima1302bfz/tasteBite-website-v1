@@ -1,4 +1,4 @@
-import {useState} from "react;
+import {useState} from "react";
 import classes from "./favorates.module.css";
 import PagesHead from "../some-pages-head/PagesHead";
 import Controls from "./small-pieces-comp/controls/Controls";
