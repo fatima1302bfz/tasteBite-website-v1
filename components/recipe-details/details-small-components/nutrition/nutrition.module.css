@@ -1,0 +1,22 @@
+.nutrition {
+    background-color: #f9f9f9;
+    padding: 20px 15px;
+    max-width: 500px
+  }
+  .nutrition .nutri-list li {
+    padding-block: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  .nutrition .nutri-list li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+  .nutrition .nutri-list li .fact {
+     text-transform: capitalize;
+     font-weight: 500;
+  }
+  .nutrition .nutri-list li .value {
+    color: var(--text-grey);
+ }

@@ -1,0 +1,39 @@
+.description-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: last baseline;
+    gap: 30px;
+}
+.description-content .text {
+    max-width: 700px;
+}
+
+.description-content .text h2 {
+    font-size: clamp(1.2rem, 3vw, 3rem);
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.description-content .text h2 span {
+    font-size: 14px;
+    font-weight: 400;
+}
+.description-content .text p {
+   font-size: clamp(0.9rem, 2vw, 1rem);
+   line-height: 28px;
+}
+.description-content .filter {
+   margin-left: auto;
+}
+.description-content .filter select {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    width: 100px;
+}
+

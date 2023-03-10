@@ -1,0 +1,30 @@
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    
+}
+
+.link-card h3 {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.link-card li {
+    padding-block: 5px;
+}
+.link-card a {
+    text-transform: capitalize;
+    color: var(--text-grey);
+    font-size: clamp(0.7rem, 2vw, 1rem);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.link-card a:hover {
+    color: var(--rose);
+    text-decoration: underline;
+}

@@ -1,0 +1,41 @@
+.prepartion-info {
+  display: flex;
+  gap: 20px;
+}
+.prepartion-info table {
+  border: none;
+  border-collapse: collapse;
+  text-align: center;
+  color: var(--text-grey);
+  text-transform: uppercase;
+  font-size: clamp(0.5rem, 2vw, 0.8rem);
+}
+.prepartion-info table td {
+  padding-inline: 10px;
+  border-right: 1px solid #ddd;
+}
+.prepartion-info table thead td {
+  color: var(--rose);
+  font-weight: 600;
+}
+
+.prepartion-info table td:first-child {
+  padding-left: 0;
+}
+.prepartion-info span {
+  font-size: 20px;
+  cursor: pointer;
+  padding-top: 8px;
+  text-align: center;
+  color: var(--text-grey);
+  transition: .5;
+  -webkit-transition: .5;
+  -moz-transition: .5;
+  -ms-transition: .5;
+  -o-transition: .5;
+}
+.prepartion-info span:hover {
+  color: var(--rose);
+}
+
+

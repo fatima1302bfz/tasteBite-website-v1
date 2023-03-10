@@ -1,0 +1,26 @@
+.signout {
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.signout button {
+    all: unset;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.signout .signout-btn {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.signout .signout-btn svg {
+    margin-right: 5px;
+    font-size: 25px;
+}
+.signout .delete-btn {
+    font-size: 14px;
+    color: red;
+}

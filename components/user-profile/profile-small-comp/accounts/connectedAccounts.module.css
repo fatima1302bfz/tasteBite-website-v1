@@ -1,0 +1,36 @@
+.accounts h3 {
+    font-size: clamp(1rem, 1.5vw, 1.3rem);
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.accounts .accounts-list {
+    max-width: 700px;
+}
+.accounts .accounts-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-block: 15px 10px;
+}
+.accounts .accounts-list li p {
+    font-size: 12px;
+    color: var(--text-grey);
+    margin-top: 10px;
+}
+.accounts .accounts-list li .disconnect {
+    all: unset;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: capitalize;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.accounts .accounts-list li .disconnect:hover {
+    color: var(--rose);
+    text-decoration: underline;
+}

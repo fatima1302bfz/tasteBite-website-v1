@@ -1,0 +1,20 @@
+.cuisineCard {
+    display: grid;
+    place-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.cuisineCard img {
+    width: clamp(6rem, 10vw, 8rem);
+    height: clamp(6rem, 10vw, 8rem);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.cuisineCard h4 {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: clamp(1rem, 1.3vw, 1.2rem);
+}

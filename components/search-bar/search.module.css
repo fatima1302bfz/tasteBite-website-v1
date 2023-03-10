@@ -1,0 +1,31 @@
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    max-width: 650px;
+    padding-inline: 10px ;
+    margin-top: 50px;
+    margin-inline: auto;
+}
+.search-form input {
+    width: 100%;
+    padding-block: 8px;
+    border: none;
+    outline: none;
+    caret-color: #ddd;
+}
+.search-form svg {
+    color: #ddd;
+}
+.search-form:hover {
+    border-color: #222;
+}
+.search-form:hover svg {
+    color: #222;
+}

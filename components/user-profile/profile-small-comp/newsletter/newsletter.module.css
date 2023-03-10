@@ -1,0 +1,20 @@
+.newsletter {
+    margin-block: 70px 30px;
+    max-width: 700px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
+}
+.newsletter h3 {
+    font-size: clamp(1rem, 1.5vw, 1.3rem);
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.newsletter .subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    gap: 20px;
+}

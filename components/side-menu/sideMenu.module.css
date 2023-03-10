@@ -1,0 +1,65 @@
+.side-menu {
+    position: fixed;
+    background-color: #f9f9f9;
+    z-index: 77777;
+    height: 100%;
+    width: 25vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px #999;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+@media (max-width: 700px) {
+    .side-menu {
+        width: 50vw;
+    }
+}
+.active-side {
+    right: 0;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+.side-menu .close svg {
+    cursor: pointer;
+    font-size: 20px;
+}
+.side-menu .side {
+    flex: 1;
+    padding-top: 100px;
+}
+.side-menu .side li {
+    padding-block: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-grey);
+    display: flex;
+    align-items: center;
+}
+.side-menu .side-item,
+.side-menu .logout {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-grey);
+}
+.side-menu .logout {
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.side-menu svg {
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 25px;
+    fill: var(--text-grey);
+}

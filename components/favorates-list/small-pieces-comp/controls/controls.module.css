@@ -1,0 +1,23 @@
+.controls {
+    padding-block: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+}
+.controls li {
+    text-transform: capitalize;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+   
+}
+.controls li:not(:first-of-type) {
+    cursor: pointer;
+}
+.controls li svg {
+    font-size: 16px;
+    margin-right: 7px;
+}
+.controls li:last-child svg {
+    fill: red;
+}

@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-top: 50px;
+}
+.info h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.info .extra-info ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-size: 12px;
+  color: var(--text-grey);
+}
+.info .extra-info li {
+  display: flex;
+}
+.info .extra-info ul svg {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.bookmark {
+  padding-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 767px) {
+  .bookmark {
+    padding-top: 0px;
+  }
+}
+.bookmark svg {
+  cursor: pointer;
+  font-size: 25px;
+}
+.bookmark i:nth-of-type(2) {
+  margin-left: 13px;
+}
