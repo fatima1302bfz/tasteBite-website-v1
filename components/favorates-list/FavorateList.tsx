@@ -1,9 +1,11 @@
+import {useState} from "react;
 import classes from "./favorates.module.css";
 import PagesHead from "../some-pages-head/PagesHead";
 import Controls from "./small-pieces-comp/controls/Controls";
 
 const FavorateList = () => {
 //   const myFavorate = localStorage.getItem("myFavorate") ?? [];
+  const [myFavorate, setMyFavorate] = useState([])
 
   return (
     <section className={classes["favorate"]}>
