@@ -17,7 +17,8 @@ const ProfileForm = () => {
           <label htmlFor="fullname">full name</label>
           <div className={classes["user-input"]}>
             <FaRegUser style={Style} />
-            <input type="text" value={session?.user?.name} readOnly/>
+            {/* @ts-ignore */}
+            <input type="text" value={session?.user?.name}/>
           </div>
 
         </div>
@@ -25,21 +26,23 @@ const ProfileForm = () => {
           <label htmlFor="username">username</label>
           <div className={classes["user-input"]}>
             <FiAtSign style={Style} />
-            <input type="text" value={session?.user?.name} readOnly/>
+            {/* @ts-ignore */}
+            <input type="text" value={session?.user?.name}/>
           </div>
         </div>
         <div className={classes["form-group"]}>
           <label htmlFor="email">e-mail</label>
           <div className={classes["user-input"]}>
             <BsEnvelopeAt style={Style} />
-            <input type="email" value={session?.user?.email} readOnly/>
+            {/* @ts-ignore */}
+            <input type="email" value={session?.user?.email}/>
           </div>
         </div>
         <div className={classes["form-group"]}>
           <label htmlFor="password">password</label>
           <div className={classes["user-input"]}>
             <FiLock style={Style} />
-            <input type="password" value={1234567} readOnly/>
+            <input type="password" value={1234567}/>
           </div>
           <span>change</span>
         </div>
